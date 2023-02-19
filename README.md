@@ -1,8 +1,11 @@
 # About heimatbrotreact
 this is just a fun repository to test out Github and React.
 
+## npm run build 
+create new build
+
 ## npm run deploy
-deploy active build
+deploy new build
 
 ## npm start
 locally run active build -> not deployed
