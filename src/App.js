@@ -9,7 +9,7 @@ function changetest(){
 function App() {
   return (
     <div class = "center">
-          <h1>React</h1>
+          <h1>HB React</h1>
           <p id="changetest_paragraph">Versuch Nr. 1</p>
           <button onClick={changetest}>Klick mich</button>
     </div>
