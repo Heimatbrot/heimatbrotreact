@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return null
+  return (
+    <h1 class="center">React</h1>
+  )
 }
 
 export default App;
