@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 
 function changetest(){
-  document.getElementById("changetest_paragraph").innerText = "it workz";
+  const possiblecomments = ["it works", "whup", "jejj"]
+  const randomIndex = Math.floor(Math.random() * possiblecomments.length);
+  const randomElement = possiblecomments[randomIndex];
+  document.getElementById("changetest_paragraph").innerText = randomElement;
   return
 }
 
