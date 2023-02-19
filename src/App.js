@@ -1,23 +1,37 @@
 import React from 'react';
 import './App.css';
 
-function changetest(){
-  const possiblecomments = ["it works", "whup", "jejj"]
-  const randomIndex = Math.floor(Math.random() * possiblecomments.length);
-  const randomElement = possiblecomments[randomIndex];
-  document.getElementById("changetest_paragraph").innerText = randomElement;
-  return
+var turn = "X"
+
+function play(field) {
+  if (field.innerText!=="X" && field.innerText!=="O"){
+  if (turn === "X" ) {
+    field.innerText = "X"
+    turn = "O"
+  } else {
+    field.innerText = "O"
+    turn = "X"
+  }}
+  else {
+    console.log("not valid!")
+  }
 }
 
 function App() {
   return (
-    <div class = "center">
-          <h1>HB React</h1>
-          <p id="changetest_paragraph">Versuch Nr. 1</p>
-          <button onClick={changetest}>Klick mich</button>
+    <div className="center">
+      <h1>HB React - Tic Tac Toe</h1>
+      <button className="gamegrid" id='but0' onClick={(event) => play(event.target)}> </button>
+      <button className="gamegrid" id='but1' onClick={(event) => play(event.target)}> </button>
+      <button className="gamegrid" id='but2' onClick={(event) => play(event.target)}> </button><br></br>
+      <button className="gamegrid" id='but3' onClick={(event) => play(event.target)}> </button>
+      <button className="gamegrid" id='but4' onClick={(event) => play(event.target)}> </button>
+      <button className="gamegrid" id='but5' onClick={(event) => play(event.target)}> </button><br></br>
+      <button className="gamegrid" id='but6' onClick={(event) => play(event.target)}> </button>
+      <button className="gamegrid" id='but7' onClick={(event) => play(event.target)}> </button>
+      <button className="gamegrid" id='but8' onClick={(event) => play(event.target)}> </button>
     </div>
   )
 }
-
 
 export default App;

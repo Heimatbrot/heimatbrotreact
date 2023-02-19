@@ -8,3 +8,8 @@ body {
 .center {
   text-align: center;
 }
+
+.gamegrid {
+  width: 80;
+  height: 80;
+}
