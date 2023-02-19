@@ -7,4 +7,5 @@ deploy active build
 ## npm start
 locally run active build -> not deployed
 
-## App.js -> Main document do be edited
+## App.js
+main app document -> everything changed here is being displayed.
