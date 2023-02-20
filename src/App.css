@@ -3,4 +3,21 @@
     height: 80px;
     font-size: 48px;
     vertical-align: top;
-};
+    color:rgb(139, 97, 33);
+    text-align: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    background-color:rgb(242, 206, 151);
+    border-color: blanchedalmond;
+    border-style:solid;
+    border-radius: 15px;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: rgb(139, 97, 33);
+}
