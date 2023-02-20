@@ -1,7 +1,7 @@
 .gamegrid {
     width: 25% !important;
     height: 25% !important;
-    font-size: 50px;
+    font-size: 36px;
     vertical-align: top;
     color:rgb(139, 97, 33);
     text-align: center;
@@ -12,8 +12,6 @@
     border-color: blanchedalmond;
     border-style:solid;
     border-radius: 15px;
-    justify-content: center;
-    align-items: center;
 }
 
 body{
@@ -36,4 +34,9 @@ div{
 }
 .center {
     text-align: center;
+}
+
+#winner {
+    display: none;
+    color: green;
 }
