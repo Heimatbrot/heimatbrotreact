@@ -6,7 +6,4 @@ body {
     touch-action: manipulation; /* prevent pinch-to-zoom on touch devices */
 }
 
-.center {
-  text-align: center;
-}
 
