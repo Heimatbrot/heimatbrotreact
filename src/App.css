@@ -1,6 +1,8 @@
 .gamegrid {
     width: 80px;
+    max-width: 80px;
     height: 80px;
+    max-height: 80px;
     font-size: 48px;
     vertical-align: top;
     color:rgb(139, 97, 33);
