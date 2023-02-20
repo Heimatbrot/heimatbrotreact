@@ -1,8 +1,8 @@
 .gamegrid {
-    width: 10vw !important;
-    height: 10vw !important;
+    width: 80px !important;
+    height: 80px !important;
 
-    font-size: 6vw;
+    font-size: 50px;
     vertical-align: top;
     color:rgb(139, 97, 33);
     text-align: center;
