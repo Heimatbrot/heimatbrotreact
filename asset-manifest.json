@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/heimatbrotreact/static/css/main.e0a3fe88.css",
+    "main.css": "/heimatbrotreact/static/css/main.abc69426.css",
     "main.js": "/heimatbrotreact/static/js/main.722a660e.js",
     "index.html": "/heimatbrotreact/index.html",
-    "main.e0a3fe88.css.map": "/heimatbrotreact/static/css/main.e0a3fe88.css.map",
+    "main.abc69426.css.map": "/heimatbrotreact/static/css/main.abc69426.css.map",
     "main.722a660e.js.map": "/heimatbrotreact/static/js/main.722a660e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0a3fe88.css",
+    "static/css/main.abc69426.css",
     "static/js/main.722a660e.js"
   ]
 }
