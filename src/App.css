@@ -1,7 +1,6 @@
 .gamegrid {
     width: 25% !important;
     height: 25% !important;
-
     font-size: 50px;
     vertical-align: top;
     color:rgb(139, 97, 33);
@@ -13,7 +12,12 @@
     border-color: blanchedalmond;
     border-style:solid;
     border-radius: 15px;
+
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body{
@@ -28,9 +32,9 @@ h2 {
 }
 
 div{
-    size: 300px;
-    width: 300px;
-    height: 300px;
+    size: 200;
+    width: 400px;
+    height: 400px;
     text-align: center;
     margin: auto;
 }
