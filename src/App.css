@@ -1,8 +1,10 @@
 .gamegrid {
     width: 80px;
     max-width: 80px;
+    min-width: 80px;
     height: 80px;
     max-height: 80px;
+    min-height: 80px;
     font-size: 48px;
     vertical-align: top;
     color:rgb(139, 97, 33);
@@ -14,6 +16,7 @@
     border-color: blanchedalmond;
     border-style:solid;
     border-radius: 15px;
+    text-align: center;
 }
 
 body{
