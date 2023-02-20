@@ -12,10 +12,6 @@
     border-color: blanchedalmond;
     border-style:solid;
     border-radius: 15px;
-
-    text-align: center;
-
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -37,4 +33,7 @@ div{
     height: 400px;
     text-align: center;
     margin: auto;
+}
+.center {
+    text-align: center;
 }
