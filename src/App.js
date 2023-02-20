@@ -19,8 +19,8 @@ function play(field) {
 
 function App() {
   return (
-    <div className="center" id="gamegriddiv">
-      <h1>HB React - Tic Tac Toe</h1>
+    <div className="center">
+      <h1>HB React</h1><br></br><h1>Tic Tac Toe</h1>
       <button className="gamegrid" id='but0' onClick={(event) => play(event.target)}> </button>
       <button className="gamegrid" id='but1' onClick={(event) => play(event.target)}> </button>
       <button className="gamegrid" id='but2' onClick={(event) => play(event.target)}> </button><br></br>
