@@ -15,11 +15,15 @@ function checkwinner(){
     if (buttons[a].innerText === buttons[b].innerText &&
         buttons[b].innerText === buttons[c].innerText &&
         buttons[a].innerText !== '') {
+      buttons[a].style.color = "white";
+      buttons[b].style.color = "white";
+      buttons[c].style.color = "white";    
       document.getElementById("winner").style.display = "block"
       document.getElementById("winner").innerText = "'" + buttons[a].innerText + "' has won!"
       const gameGridElements = document.querySelectorAll(".gamegrid");
         for (let i = 0; i < gameGridElements.length; i++) {
         gameGridElements[i].disabled = true;
+        document.getElementById("reset").style.display = "block"
         }
       return true;
     }
@@ -46,6 +50,7 @@ function play(field) {
 function App() {
   return (
     <div className="center">
+      <div>
       <h1>HB React</h1><h2>Tic Tac Toe</h2>
       <h2 id="winner">winner is</h2>
       <button className="gamegrid" id='but0' onClick={(event) => play(event.target)}> </button>
@@ -57,6 +62,10 @@ function App() {
       <button className="gamegrid" id='but6' onClick={(event) => play(event.target)}> </button>
       <button className="gamegrid" id='but7' onClick={(event) => play(event.target)}> </button>
       <button className="gamegrid" id='but8' onClick={(event) => play(event.target)}> </button>
+    </div>
+    <div className='reset-container'>
+      <button id="reset" onClick={() => window.location.reload(false)}>reset</button>
+    </div>
     </div>
   )
 }
