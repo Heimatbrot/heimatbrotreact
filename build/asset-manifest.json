@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/heimatbrotreact/static/css/main.78417fa3.css",
+    "main.js": "/heimatbrotreact/static/js/main.0ed69370.js",
+    "index.html": "/heimatbrotreact/index.html",
+    "main.78417fa3.css.map": "/heimatbrotreact/static/css/main.78417fa3.css.map",
+    "main.0ed69370.js.map": "/heimatbrotreact/static/js/main.0ed69370.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78417fa3.css",
+    "static/js/main.0ed69370.js"
+  ]
+}
